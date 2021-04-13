@@ -1,0 +1,63 @@
+ 
+ body{
+ 	background-image: url(../img/IMG4.jpe);
+ 	color: black;
+ 	
+ }
+
+ <style type="text/css">
+	h2{
+		color: black; 
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.texto-parrafo{
+		text-align: justify; 
+		margin-right: 10px; 
+		color: black; 
+	}
+
+
+ img{
+	border-radius: 50%;
+    }
+
+    
+.menu-lista{
+	display: inline-flex;
+	list-style: none;
+}
+
+
+.padd-sm{
+	padding: 15px
+}
+
+
+.menu{
+	text-align: left;
+	width: 80%
+}
+
+.menu-padre{
+	display: flex;
+}
+
+
+.enlaces-menu{
+	text-decoration: none;
+	color: black;
+}
+
+
+.enlaces-menu:hover{
+	text-decoration: underline;
+	color: silver;
+}
+
+
+header{
+	background-color: white;
+	padding: 1px
+}

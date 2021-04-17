@@ -19,10 +19,7 @@
 	}
 
 
- img{
-	border-radius: 50%;
-    }
-
+ 
     
 .menu-lista{
 	display: inline-flex;
@@ -30,13 +27,20 @@
 }
 
 
+.img{
+	border-radius: 50%;
+	width: 170px;
+	height: 170px;
+	margin-left: 70px;
+}
+
 .padd-sm{
-	padding: 15px
+	padding: 5px
 }
 
 
 .menu{
-	text-align: left;
+	text-align: right;
 	width: 80%
 }
 
@@ -53,11 +57,29 @@
 
 .enlaces-menu:hover{
 	text-decoration: underline;
-	color: silver;
+	color: white;
 }
 
 
 header{
-	background-color: white;
-	padding: 1px
+	background-color: #008B8B;
+	height: 60px;
+}
+
+
+.div-padre{
+	display: flex;
+}
+
+
+.div-md{
+	width: 50%;
+	padding: left:70px;
+}
+
+
+.texto-footer{
+	padding: : 10px;
+	font-size: 15px;
+	text-align: center;
 }
